@@ -14,7 +14,7 @@ def main():
   myFriends = []
   
   #print out your friends at index 2 and index 3
-  
+  +
   
   #populate this list with five numbers
   fiveNumbers = []
