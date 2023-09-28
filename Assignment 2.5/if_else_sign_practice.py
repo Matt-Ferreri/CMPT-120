@@ -16,7 +16,5 @@ if age<21 and age>=18:
 if age<18:
     print("You can only purchase candy cigarettes and sody pops.")
 
-  
-  
-  
+
 main()
