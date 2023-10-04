@@ -11,6 +11,19 @@ else (the number is less than 5)
 '''
 
 def main():
-    
-    
+    x=0
+    while (x<8):
+        import random
+        num=random.randint(0,50)
+        print(num)
+        if (num>35):
+            print("greater than 35")
+        elif(num>=20 and num<=35):
+            print("between 20-35")
+        elif(num>=5 and num<20):
+            print("between 5 and 20")
+        else:
+            print("the number is less than 5")
+        x=x+1
+
 main()
