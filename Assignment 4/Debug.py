@@ -6,31 +6,36 @@ def printName(x):
     print(x)
     
 def addition(x, y):
+    sum=x+y
     #add x and y together and return them
-    return
+    return sum
 
 def smaller(i, j):
+    if(i<j):
+        return i
+    if(j<i):
+        return j
+    if(i==j):
+        return 0
     #if i is smaller than j, return i
     #if j is smaller than i, return j
     #if they're even, return 0
 
 def main():
-    
     #call the printHello function here
-    
+    printHello()
     #call printName and give it the parameter of your name
-    
-    var1= 10
-    var2= 20
+    printName("Matt")
+
+    y= 10
+    x= 20
     #What do we put in here to make it work?
-    print(addition())
+    print(addition(x,y))
     
-    num1 = int(input("Enter number 1"))
-    num2 = int(input("Enter number 2"))
+    i = int(input("Enter number 1"))
+    j = int(input("Enter number 2"))
     #what go here?
-    print(smaller())
-
-
+    print(smaller(i,j))
 
 
 
